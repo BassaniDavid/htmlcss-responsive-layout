@@ -13,7 +13,7 @@ h1{
   text-shadow: 1px 1px #828282;
   text-transform: uppercase;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 20px 0;
 }
 
@@ -34,7 +34,7 @@ h4{
 
 h3{
   color: #4e3969;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 30px;
 }
 h3 .visibility{
@@ -51,18 +51,26 @@ h3 .visibility{
 
   h1{
     text-align: left;
-    font-size: 3.5em;
     padding-left: 25px;
   }
+  h3{
+    font-size: 1.8em;
+  }
+  h3 .visibility{
+    display: inline;
+  }
   main {
-      
+    padding: 60px 60px 0;
   }
 }
 
 /* modalità desktop */
 
 @media screen and (min-width: 992px) {
+  h3{
+    font-size: 2em;
+  }
   main {
-    
+    padding: 60px 10% 0;
   }
 }
