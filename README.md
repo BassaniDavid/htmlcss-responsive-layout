@@ -1,0 +1,1 @@
+Progetto: replicare layout responsivo giallo booleano
