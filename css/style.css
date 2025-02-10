@@ -169,6 +169,14 @@ footer ul li a{
   color: #ffffff;
 }
 
+/****************modalità large mobile bonus*********************/
+@media screen and (min-width: 576px) {
+  .centro img{
+    padding: 0 10px 0 0;
+    width: 40%;
+    float: left;
+  }
+}
 /************************** modalità tablet ***********************/
 @media screen and (min-width: 768px) {
   /* titoli */
@@ -197,12 +205,6 @@ footer ul li a{
   .banner{
     display: block;
     padding-bottom: 20px;
-  }
-  /* testo centrale */
-  .centro img{
-    padding: 0 10px 0 0;
-    width: 40%;
-    float: left;
   }
 }
 
