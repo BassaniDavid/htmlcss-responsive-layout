@@ -23,6 +23,7 @@ main{
   background-color: #f6f5f3;
 }
 
+/* titoli iniziali */
 h4{
   color: #999999;
   text-transform: uppercase;
@@ -37,11 +38,44 @@ h3{
   font-size: 1.5em;
   margin-bottom: 30px;
 }
+
 h3 .visibility{
   display: none;
 }
 
+/* primo box */
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+main div.flex{
+  box-shadow: 1px 3px 5px 0px rgba(135, 135, 135, 0.497);
+}
+img{
+  width: 100%;
+}
+.resume{
+  background-color: #ffffff;
+  width: 100%;
+}
+
+main ul{
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+h5{
+  font-size: large;
+  padding: 30px 0;
+}
+
+main ul li{
+  line-height: 40px;
+}
+main ul li span{
+  font-weight: lighter;
+}
 
 
 
