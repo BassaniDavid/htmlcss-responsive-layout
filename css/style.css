@@ -50,7 +50,9 @@ h3 .visibility{
 }
 
 main div.flex{
-  box-shadow: 1px 3px 5px 0px rgba(135, 135, 135, 0.497);
+  margin-bottom: 30px;
+  box-shadow: 1px 3px 5px 0px rgba(170, 170, 170, 0.311);
+
 }
 img{
   width: 100%;
@@ -76,11 +78,37 @@ main ul li{
 main ul li span{
   font-weight: lighter;
 }
+/* icone */
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
 
+.icons .visibility{
+  display: none;
+}
 
+.icons div{
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 50%;
+  box-shadow: 1px 3px 5px 0px rgba(170, 170, 170, 0.311);
+}
+/* colore icone */
+.fa-facebook{
+  color: #1a77f3;
+}
+.fa-twitter{
+  color: #009eff;
+}
+.fa-instagram{
+  color: #dc3d78;
+}
+.fa-pinterest, .fa-youtube{
+  color: #e62222;
+}
 
 /* modalità tablet */
-
 @media screen and (min-width: 768px) {
 
   h1{
