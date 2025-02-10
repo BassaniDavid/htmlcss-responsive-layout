@@ -82,18 +82,22 @@ main ul li span{
 .icons{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .icons .visibility{
   display: none;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 .icons div{
   background-color: #ffffff;
   padding: 8px 12px;
-  border-radius: 50%;
+  border-radius: 25px;
   box-shadow: 1px 3px 5px 0px rgba(170, 170, 170, 0.311);
 }
+
 /* colore icone */
 .fa-facebook{
   color: #1a77f3;
@@ -108,9 +112,14 @@ main ul li span{
   color: #e62222;
 }
 
+/* banner */
+.banner{
+  display: none;
+}
+
 /* modalità tablet */
 @media screen and (min-width: 768px) {
-
+  /* titoli */
   h1{
     text-align: left;
     padding-left: 25px;
@@ -121,8 +130,21 @@ main ul li span{
   h3 .visibility{
     display: inline;
   }
+
+  /* main */
   main {
     padding: 60px 60px 0;
+  }
+
+  /* icone */
+  .icons div{
+    padding: 8px 42px;
+  }
+
+  /* banner */
+  .banner{
+    display: block;
+    padding-bottom: 20px;
   }
 }
 
@@ -137,18 +159,20 @@ main ul li span{
 /* modalità desktop */
 
 @media screen and (min-width: 992px) {
+  /* titoli */
   h3{
     font-size: 2em;
   }
   main {
     padding: 60px 15% 0;
   }
-  main div.flex{
 
-  }
+  /* main */
   main div.flex img{
     width: 70%;
   }
+
+  /* primo box */
   .resume{
     width: 30%;
   }
@@ -157,5 +181,16 @@ main ul li span{
   }
   h5{
     padding: 20px 0;
+  }
+
+  /* icons */
+  .icons div{
+    padding: 8px 25px;
+  }
+  .icons i{
+    display: inline;
+  }
+  .icons .visibility{
+    display: inline;
   }
 }
