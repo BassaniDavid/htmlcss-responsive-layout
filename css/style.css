@@ -6,6 +6,7 @@
   font-family:  "Montserrat", 'Helvetica Neue', sans-serif;
 }
 
+/* header */
 h1{
   font-family: "Nerko One", serif;
   color: #ff9614;
@@ -14,6 +15,30 @@ h1{
   text-align: center;
   font-size: 2.5em;
   padding: 20px 0;
+}
+
+/* main */
+main{
+  padding: 25px 25px 0;
+  background-color: #f6f5f3;
+}
+
+h4{
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: lighter;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+h3{
+  color: #4e3969;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+h3 .visibility{
+  display: none;
 }
 
 
