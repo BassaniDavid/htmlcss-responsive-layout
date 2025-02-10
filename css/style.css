@@ -44,7 +44,7 @@ h3 .visibility{
 }
 
 /* primo box */
-.flex{
+ main .flex{
   display: flex;
   flex-wrap: wrap;
 }
@@ -135,6 +135,36 @@ main ul li span{
 .centro p{
   line-height: 30px;
   padding-bottom: 40px;
+}
+
+/* footer */
+footer{
+  background-color: #7c69a4;
+  color: #ffffff;
+  text-align: center;
+}
+h6{
+  font-size: large;
+  font-weight: 600;
+  padding: 40px 0 10px;
+}
+footer div p{
+  padding-bottom: 15px;
+}
+footer ul.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+footer ul li{
+  display: inline-block;
+  flex-shrink: 0;
+}
+footer ul li a{
+  color: #ffffff;
 }
 
 /************************** modalità tablet ***********************/
