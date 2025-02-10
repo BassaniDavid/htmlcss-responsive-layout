@@ -117,7 +117,28 @@ main ul li span{
   display: none;
 }
 
-/* modalità tablet */
+/* testo centrale */
+.centro h2{
+  font-size: ;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.centro hr{
+  width: 20%;
+  border: 1px solid #f7972e;
+  margin-bottom: 20px;
+}
+.centro img{
+  padding: 0 15% 10px;
+}
+.centro p{
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+/************************** modalità tablet ***********************/
 @media screen and (min-width: 768px) {
   /* titoli */
   h1{
@@ -146,6 +167,7 @@ main ul li span{
     display: block;
     padding-bottom: 20px;
   }
+  /* testo centrale */
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -156,7 +178,7 @@ main ul li span{
   }
 }
 
-/* modalità desktop */
+/********************* modalità desktop **********************************/
 
 @media screen and (min-width: 992px) {
   /* titoli */
@@ -193,4 +215,5 @@ main ul li span{
   .icons .visibility{
     display: inline;
   }
+  /* testo centrale */
 }
