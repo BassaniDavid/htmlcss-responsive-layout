@@ -176,6 +176,10 @@ footer ul li a{
     width: 40%;
     float: left;
   }
+    /* icone */
+    .icons div{
+      padding: 8px 8%;
+    }
 }
 /************************** modalità tablet ***********************/
 @media screen and (min-width: 768px) {
@@ -194,11 +198,6 @@ footer ul li a{
   /* main */
   main {
     padding: 60px 60px 0;
-  }
-
-  /* icone */
-  .icons div{
-    padding: 8px 42px;
   }
 
   /* banner */
@@ -245,7 +244,7 @@ footer ul li a{
 
   /* icons */
   .icons div{
-    padding: 8px 25px;
+    padding: 8px 3%;
   }
   .icons i{
     display: inline;
