@@ -8,7 +8,15 @@
 
 h1{
   font-family: "Nerko One", serif;
+  color: #ff9614;
+  text-shadow: 1px 1px #828282;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2,5em;
+  padding: 20px 0;
 }
+
+
 
 
 
